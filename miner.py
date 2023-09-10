@@ -21,8 +21,8 @@ print(f"{Colors.HEADER}Miner{Colors.ENDC} # This mode tries every possible code 
 
 # INPUTS
 
-start = int(input("| Start at: (000000) ") or "000000")
-endStr = input("| End at: (999999) ") or "999999"
+start = int(input("| Start at: (0000) ") or "0000")
+endStr = input("| End at: (9999) ") or "9999"
 code_length = len(endStr)
 end = int(endStr or "9999")+1
 playing_time = (end-1)-start
